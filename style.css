@@ -258,36 +258,7 @@ body {
     width: 100%;
   }
 }
-/* Large Desktop - 1300px */
-@media only screen and (min-width: 81.25rem) {
-  #cs-navigation .cs-social {
-    display: flex;
-  }
-}
 
-/* .cs-navigation {
-  display: flex;
-  background-color: #E4EFF2;
-  color:#00253D;
-  padding: 10px;
-  text-align: center;
-  align-items: center;
-  position: relative;
-}
-
-.cs-navigation h1{
-  margin-left: 45px;
-  font-size: 48px;
-  justify-content: center;
-  font-weight: bold;
-}
-
-header h4 {
-  display: inline;
-  font-size: 20px;
-  margin: 0 15px;
-  cursor: pointer;
-} */
 
 
 @media only screen and (min-width: 0rem) {
