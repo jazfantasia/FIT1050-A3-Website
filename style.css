@@ -137,7 +137,6 @@ body {
     height: 8rem;
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
-    /* 12px - 24px */
     padding: clamp(0.75rem, 2vw, 1.5rem) 0;
     background-color: #E4EFF2;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
