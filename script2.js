@@ -25,5 +25,5 @@ document.getElementById('chat-form').addEventListener('submit', function(event) 
     const query = document.getElementById('query').value;
     const responseOutput = document.getElementById('response-output');
     const response = process(query);
-    responseOutput.textContent = response;
+    responseOutput.innerHTML = response;
 });

@@ -477,8 +477,8 @@ header h4 {
   #hero-1618 .cs-background:before {
     /* Overlay */
     content: '';
-    width: 110%;
-    height: 110%;
+    width: 100%;
+    height: 100%;
     background: #111926;
     opacity: .8;
     position: absolute;
@@ -493,7 +493,7 @@ header h4 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 110%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     /* makes the top of the image start at the top of the parent */
