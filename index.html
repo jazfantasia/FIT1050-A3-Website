@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="noindex, nofollow">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="corestyle.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <title>Plumbing by Aquapro</title>
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <!--Logo is turned white in the css with a filter on dark mode-->
+            <div class="title-and-logo">
+                <a href="" class="cs-logo" aria-label="back to home">
+                    <img src="images/LOGO.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+                </a>
+                <h1>Plumbing by AquaPro</h1>
+            </div>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                About
+                            </a>
+                        </li>
+                        <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                        <li class="cs-li cs-dropdown" tabindex="0">
+                            <span class="cs-li-link">
+                                Services
+                                <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/down-gold.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                            </span>
+                            <ul class="cs-drop-ul">
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Pipe replacement</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Drainage System</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Civil Construction</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+
+        <section id="hero-1618">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <h1 class="cs-title">Plumber-Drainage-Blockages</h1>
+                    <h3 class="cs-text-lilydale">Lilydale</h3>
+                    <h3 class="cs-text-yarra">Yarra Valley</h3>
+                    <a href="" class="cs-button-solid">BOOK NOW</a>
+                </div>
+            </div>
+        
+            <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
+            <picture class="cs-background">
+                <source media="(max-width: 900px)" srcset="images/backgroundimage.png">
+                <source media="(min-width: 600px)" srcset="images/backgroundimage.png">
+                <img decoding="async" src="images/backgroundimage.png" alt="meeting" aria-hidden="true">
+            </picture>
+        </section>
+        <section id="services">
+            <div class="blue-background">
+                <div class="cs-container">
+                    <div class="cs-content">
+                        <h2 class="cs-title">Our services</h2>
+                    </div>
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <picture class="cs-circle">
+                                <img class="cs-icon"
+                                        src="images/icons8-piping-100.png"
+                                        loading="lazy" decoding="async" alt="pipe icon" width="45" height="40" aria-hidden="true">
+                            </picture>
+                            <!-- Text Grouped For Flexbox-->
+                            <div class="cs-text-group">
+                                <h3 class="cs-h3">Pipe replacement</h3>
+                                <p class="cs-item-text">Aqua Pro Plumbing & Excavations provide a trenchless pipe replacement method known as Pipe Bursting.</p>
+                                <p class="learn">Learn more</p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-circle">
+                                <img class="cs-icon" src="images/houseicon.png"
+                                        loading="lazy" decoding="async" alt="house icon" width="60" height="60" aria-hidden="true">
+                            </picture>
+                            <!-- Text Grouped For Flexbox-->
+                            <div class="cs-text-group">
+                                <h3 class="cs-h3">Drainage System</h3>
+                                <p class="cs-item-text">Aqua Pro Plumbing sepcialises in new drainage innstallations, Extensions and alternations of existing drainage.</p>
+                                <p class="learn">Learn more</p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-circle">
+                                <img class="cs-icon"
+                                        src="images/constructionIcon.png"
+                                        loading="lazy" decoding="async" alt="construction icon" width="40" height="50" aria-hidden="true">
+                            </picture>
+                            <!-- Text Grouped For Flexbox-->
+                            <div class="cs-text-group">
+                                <h3 class="cs-h3">Civil Construction</h3>
+                                <p class="cs-item-text">Aqua Pro Plumbing & Excavations provide a wide range of civil services. Our civil services are guaranteed to help you!</p>
+                                <p class="learn">Learn more</p>
+                            </div>
+                        </li>
+                    </ul>
+    
+                </div>
+            </div>
+        </section>
+    
+        <div class="testimonials">
+            <div class="slider">
+                <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <div class="testi-card">
+                            <p class="testi-text">"After a sudden leak threatened to shut down my kitchen, AquaPro team was there within the hour! Not only did they fix the 
+                                leak efficiently, but they also advised me on preventive measures for the future.</p>
+                            <p class="testi-by">Sarah Thompson</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="testi-card">
+                            <p class="testi-text">"I can't praise AquaPro Services enough! They transformed our chronic damp basement into a dry, usable space. Their attention to detail and commitment to quality is second to none. Highly recommend for any waterproofing needs!"</p>
+                            <p class="testi-by">Michael Clarke</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="testi-card">
+                            <p class="testi-text">"Choosing AquaPro Services was one of the best decisions we made for our home. They identified and fixed our plumbing issues quickly, leaving no mess behind. We highly recommend AquaPro for any plumbing services!"</p>
+                            <p class="testi-by">Sarah Mines</p>
+                        </div>
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                    </div>
+                    <!--manual navigation start-->
+                    <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+
+                    </div>
+            </div>    
+            <div class="title">
+                <h3 class="testi-title">Our testimonies</h3>
+            </div>     
+            <script src="script1.js"></script>
+        </div>
+
+        <div class="chat-queries">
+            <div class="chat-about">
+                <label for="query">Ask a question</label>
+
+                <div class="chat-notes">
+                    <h2 class="chat-title">Accepted inputs:</h2>
+                    <p class="chat-text">What is the name of this company?</p>
+                    <p class="chat-text">Can you give me a quote?</p>
+                    <p class="chat-text">How can I contact Aquapro?</p>
+                </div>
+                
+                <form id="chat-form">
+                    <div class="chat-query">
+                        <input type="text" id="query" name="query">
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="output" id="response-output"></div>
+            
+            </div>
+        </div>
+        
+        <script src="script2.js">
+        </script>
+
+        <section id="faq-1720">
+            <div class="cs-container">
+                    <div class="cs-content">
+                        <h2 class="cs-title">Frequently Asked Questions</h2>
+                    </div>
+                    <div class="cs-flex-group">
+                        <div class="cs-button-group">
+                            <img src="images/male-plumber-working-with-client-fix-kitchen-problems 1.png" alt="a male plumber working with a client to fix kitchen problem">
+                        </div>
+                        <div class="cs-wrapper">
+                            <!--If you add more FAQ's, copy and paste of of the .cs-faq-grop lists and increment the data-category to the next number. We have three right now, if you added a fourth you'd change it to data-category="four" to correspond to the new button you created in the .cs-button-group. The filter and category data attributes need to match so they can work together-->
+                            <ul class="cs-faq-group" data-category="one">
+                                <!-- Active class added as default -->
+                                <li class="cs-faq-item">
+                                    <button class="cs-button">
+                                        <span class="cs-button-text">
+                                            How can we contact Plumbing by Aquapro?
+                                        </span>
+                                    </button>
+                                    <p class="cs-item-p">
+                                        Through our number (0401 623 558) or book online. We answer promptly!
+                                    </p>
+                                </li>
+                                <li class="cs-faq-item">
+                                    <button class="cs-button">
+                                        <span class="cs-button-text">
+                                            What is the price range?
+                                        </span>
+                                    </button>
+                                    <p class="cs-item-p">
+                                        That will depend on the service. We provide a free quote with just one call.
+                                    </p>
+                                </li>
+                                <li class="cs-faq-item">
+                                    <button class="cs-button">
+                                        <span class="cs-button-text">
+                                            Something is not right?
+                                        </span>
+                                    </button>
+                                    <p class="cs-item-p">
+                                        We will go inspect!
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </section>
+    </body>
+
+    <footer id="cs-footer-108">
+        <div class="cs-container">
+            <h2>Book our service today!</h2>
+            <p>Call us on <b>0401 623 558</b> or <b>book online.</b></p>
+            <div class="buttons">
+                <a href="">
+                    <button class="btn-footer-number">0401 623 558</button>
+                </a>
+                <a href="">
+                    <button class="btn-footer-quote"><b>GET A FREE QUOTE</b></button>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="container-with-image">
+            <div class="cs-container">
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a href="" class="cs-link">Home</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">About Us</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Services</a>
+                </li>
+            </ul>
+            <img src="images/Google Reviews.png" alt="Aquapro's Google Reviews">
+        </div>
+        </div>
+        <hr>
+        <div class="cs-container">
+            <span class="cs-copyright">Copyright 2024 &copy; Plumbing by Aquapro and Excavation</span>
+        </div>
+    </footer>
+                  
+
+</html>
